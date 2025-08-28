@@ -1,0 +1,128 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "Berkeley Mono", monospace;
+  font-size: 13px;
+  font-weight: 500;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: #c0c0c0;
+}
+
+/* All modules get simple styling */
+#workspaces,
+#window,
+#network,
+#cpu,
+#memory,
+#battery,
+#tray {
+  background: rgba(30, 30, 30, 0.85);
+  border-radius: 0;
+  padding: 0 10px;
+  margin: 0 2px;
+  /* border: 1px solid #404040; */
+}
+
+/* Window title */
+#window {
+  color: #808080;
+  font-weight: 400;
+}
+
+#window.empty {
+  background: transparent;
+  border: none;
+}
+
+/* Workspaces */
+#workspaces {
+  padding: 0 10px;
+  background: rgba(30, 30, 30, 0.85);
+}
+
+#workspaces button {
+  color: #606060;
+  padding: 0 8px;
+  margin: 0;
+  background: transparent;
+  border-radius: 0;
+}
+
+#workspaces button:hover {
+  color: #606060;
+  background: transparent;
+}
+
+#workspaces button.active {
+  color: #ffffff;
+  background: transparent;
+}
+
+/* Module state variations */
+#battery.charging {
+  color: #d0d0d0;
+}
+
+#battery.warning:not(.charging) {
+  color: #a0a0a0;
+  background: rgba(40, 40, 40, 0.85);
+}
+
+#battery.critical:not(.charging) {
+  color: #ffffff;
+  background: rgba(60, 60, 60, 0.85);
+}
+
+#network.disconnected {
+  color: #505050;
+  background: rgba(20, 20, 20, 0.85);
+}
+
+/* CPU/Memory alerts */
+#cpu.warning {
+  color: #b0b0b0;
+}
+
+#cpu.critical,
+#memory.critical {
+  color: #ffffff;
+  background: rgba(50, 50, 50, 0.85);
+}
+
+/* Tray */
+#tray {
+  padding: 0 8px;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+}
+
+/* Hover effects */
+#network:hover,
+#cpu:hover,
+#memory:hover,
+#battery:hover {
+  background: rgba(40, 40, 40, 0.9);
+  border-color: #606060;
+}
+
+/* Tooltips */
+tooltip {
+  background: rgba(20, 20, 20, 0.95);
+  border: 1px solid #404040;
+  border-radius: 0;
+}
+
+tooltip label {
+  color: #c0c0c0;
+  padding: 4px;
+}

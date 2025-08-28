@@ -1,0 +1,57 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 35,
+  "spacing": 8,
+  "margin-top": 8,
+  "margin-left": 10,
+  "margin-right": 10,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": [],
+  "modules-right": ["network", "cpu", "memory", "battery", "tray"],
+
+  "hyprland/workspaces": {
+    "format": "●",
+    "on-click": "activate",
+    "persistent-workspaces": {
+      "*": 5
+    }
+  },
+
+
+  "network": {
+      "format-wifi": "{essid} | [S] {signalStrength}%",
+      "format-ethernet": "[E]",
+      "format-disconnected": "[X]",
+      "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+      "on-click": "nm-connection-editor"
+  },
+
+  "cpu": {
+      "format": "CPU {usage}%",
+      "interval": 2,
+      "tooltip": true
+  },
+
+  "memory": {
+      "format": "MEM {}%",
+      "interval": 2,
+      "tooltip-format": "{used:0.1f}G / {total:0.1f}G"
+  },
+
+  "battery": {
+      "states": {
+          "warning": 30,
+          "critical": 15
+      },
+      "format": "BAT {capacity}%",
+      "format-charging": "CHG {capacity}%",
+      "format-plugged": "PWR {capacity}%"
+  },
+
+  "tray": {
+      "icon-size": 16,
+      "spacing": 8
+  }
+}
