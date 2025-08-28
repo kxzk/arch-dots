@@ -4,6 +4,10 @@
 
 <br>
 
+* manage using stow
+
+<br>
+
 ### using
 
 *hyprcursor*
@@ -23,3 +27,10 @@ atuin sync
 ```
 
 <br>
+
+### bun
+
+```bash
+# https://bun.com/docs/installation
+curl -fsSL https://bun.com/install | bash
+```
