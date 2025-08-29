@@ -13,7 +13,7 @@
 
 <br>
 
-* manage using stow
+* managed using stow
 
 ### todo
 
