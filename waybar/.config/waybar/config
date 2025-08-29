@@ -15,7 +15,7 @@
     "format": "●",
     "on-click": "activate",
     "persistent-workspaces": {
-      "*": 5
+      "*": 3
     }
   },
 
