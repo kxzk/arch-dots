@@ -6,13 +6,26 @@
 
 * manage using stow
 
+### todo
+
+- [ ] thunar -> dragon-drop
+- [ ] setup hyprlock
+
+<br>
+
+### context
+
+- [hyprland wiki](https://wiki.hypr.land/)
+
 <br>
 
 ### using
 
-*hyprcursor*
-
-- [future cyan](https://gitlab.com/Pummelfisch/future-cyan-hyprcursor)
+- [hyprcursor -> future cyan](https://gitlab.com/Pummelfisch/future-cyan-hyprcursor)
+- [waybar](https://github.com/Alexays/Waybar)
+- [mako](https://github.com/emersion/mako)
+- [hypridle](https://github.com/hyprwm/hypridle)
+- [hyprpolkitagent](https://github.com/hyprwm/hyprpolkitagent)
 
 <br>
 
@@ -24,6 +37,8 @@ atuin key
 
 atuin login -u <username> -p <password> -k <key>
 atuin sync
+
+curl https://raw.githubusercontent.com/rcaloras/bash-preexec/master/bash-preexec.sh -o ~/.bash-preexec.sh
 ```
 
 <br>
@@ -34,3 +49,37 @@ atuin sync
 # https://bun.com/docs/installation
 curl -fsSL https://bun.com/install | bash
 ```
+
+<br>
+
+### glimpse
+
+```bash
+cargo install glimpse
+```
+
+<br>
+
+### copilot
+
+```bash
+# in vim
+# :Copilot setup
+```
+
+<br>
+
+### tdf (pdf viewer)
+
+```bash
+# https://github.com/itsjunetime/tdf
+rustup install nightly && cargo +nightly install --git https://github.com/itsjunetime/tdf.git
+```
+
+<br>
+
+### waybar
+
+* [wiki](https://github.com/Alexays/Waybar/wiki)
+
+<br>
