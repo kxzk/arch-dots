@@ -18,7 +18,8 @@
 ### todo
 
 - [ ] thunar -> dragon-drop
-- [ ] setup hyprlock
+- [ ] grim & slurp
+
 
 <br>
 
