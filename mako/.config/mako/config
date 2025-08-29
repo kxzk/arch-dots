@@ -1,15 +1,15 @@
 # position and sizing
 anchor=top-right
 margin=10
-width=300
-height=100
+width=350
+height=400
 max-visible=5
 
 # visual styling
-background-color=#1e1e1eD9
-text-color=#c0c0c0
-border-color=#404040
-border-size=1
+background-color=#282c34E6
+text-color=#abb2bf
+border-color=#3e4451
+border-size=2
 border-radius=8
 
 # behavior
@@ -18,12 +18,17 @@ ignore-timeout=0
 
 # urgency-specific styling
 [urgency=low]
-background-color=#141414D9
-text-color=#606060
-border-color=#303030
+background-color=#1e2a1fE6
+text-color=#98c379
+border-color=#98c379
+
+[urgency=normal]
+background-color=#1c2938E6
+text-color=#61afef
+border-color=#61afef
 
 [urgency=critical]
-background-color=#323232E6
-text-color=#ffffff
-border-color=#606060
+background-color=#3e2029E6
+text-color=#e06c75
+border-color=#e06c75
 default-timeout=0
