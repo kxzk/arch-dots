@@ -5,7 +5,7 @@ return {
 		config = function()
 			require("onedark").setup({
 				style = "dark",
-        transparent = true
+				transparent = true,
 			})
 			-- Enable theme
 			require("onedark").load()
@@ -155,7 +155,6 @@ return {
 				python = { "ruff_organize_imports", "ruff_format" },
 				-- javascript = { "prettierd" },
 				html = { "prettierd" },
-				fish = { "fish_indent" },
 				rust = { "rustfmt" },
 				zig = { "zigfmt" },
 				-- sql = { "sqlfmt" },
