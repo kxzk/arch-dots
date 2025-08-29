@@ -25,3 +25,4 @@ alias cldp="claude --dangerously-skip-permissions --disallowedTools NotebookEdit
 alias cl="claude --disallowedTools NotebookEdit,NotebookWrite"
 
 alias thunar="thunar 2>/dev/null"
+alias open="xdg-open"
