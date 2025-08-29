@@ -18,7 +18,7 @@ map("n", "<leader>q", ":q!<cr>")
 map("n", "<leader>s", ":%s/")
 
 -- copy file to clipboard
-map("n", "<leader>p", ":%w !pbcopy<cr><cr>")
+map("n", "<leader>p", ":%w !wl-copy<cr><cr>")
 
 -- clear search highlighting
 map("n", "<BS>", ":nohlsearch<cr>")
