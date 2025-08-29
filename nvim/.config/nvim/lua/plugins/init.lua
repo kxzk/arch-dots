@@ -157,6 +157,8 @@ return {
 				html = { "prettierd" },
 				rust = { "rustfmt" },
 				zig = { "zigfmt" },
+				bash = { "beautysh" },
+				sh = { "beautysh" },
 				-- sql = { "sqlfmt" },
 				["_"] = { "trim_whitespace" },
 			},
