@@ -26,3 +26,5 @@ alias cl="claude --disallowedTools NotebookEdit,NotebookWrite"
 
 alias thunar="thunar 2>/dev/null"
 alias open="xdg-open"
+alias pbcopy="wl-copy"
+alias pbpaste="wl-paste -n"
