@@ -21,10 +21,9 @@ title = " "
 background-opacity = 0.8
 background-blur = false
 
-cursor-style = block
-cursor-style-blink = false
+cursor-style = underline
+cursor-style-blink = true
 cursor-invert-fg-bg = true
-
 mouse-hide-while-typing = false
 
 clipboard-read = allow
