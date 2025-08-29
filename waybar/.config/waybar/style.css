@@ -73,8 +73,8 @@ window#waybar {
 }
 
 #battery.critical:not(.charging) {
-  color: #ffffff;
-  background: rgba(60, 60, 60, 0.85);
+  color: #000000;
+  background: #e06c75;
 }
 
 #network.disconnected {
