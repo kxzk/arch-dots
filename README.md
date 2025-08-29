@@ -69,15 +69,6 @@ cargo install glimpse
 
 <br>
 
-### tdf (pdf viewer)
-
-```bash
-# https://github.com/itsjunetime/tdf
-rustup install nightly && cargo +nightly install --git https://github.com/itsjunetime/tdf.git
-```
-
-<br>
-
 ### waybar
 
 * [wiki](https://github.com/Alexays/Waybar/wiki)
