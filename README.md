@@ -26,6 +26,7 @@
 ### context
 
 - [hyprland wiki](https://wiki.hypr.land/)
+* [waybar wiki](https://github.com/Alexays/Waybar/wiki)
 
 <br>
 
@@ -76,11 +77,5 @@ cargo install glimpse
 # in vim
 # :Copilot setup
 ```
-
-<br>
-
-### waybar
-
-* [wiki](https://github.com/Alexays/Waybar/wiki)
 
 <br>
