@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# simple wifi connection cli
+
+if [ "$#" -eq 0 ]; then
+    # interactive mode
+    echo -n "WiFi network (SSID): "
+    read -r ssid
+    echo -n "Password: "
+    read -rs password
+    echo
+elif [ "$#" -eq 1 ]; then
+    ssid="$1"
+    echo -n "Password for $ssid: "
+    read -rs password
+    echo
+elif [ "$#" -eq 2 ]; then
+    ssid="$1"
+    password="$2"
+else
+    echo "usage: wifi [SSID] [password]"
+    echo "  or: wifi [SSID]  # prompts for password"
+    echo "  or: wifi         # prompts for both"
+    exit 1
+fi
+
+# connect
+echo "[connecting]: $ssid"
+nmcli device wifi connect "$ssid" password "$password"
