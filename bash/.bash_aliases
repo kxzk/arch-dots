@@ -24,6 +24,9 @@ mk() { mkdir -p "$1" && cd "$1"; }
 alias cldp="claude --dangerously-skip-permissions --disallowedTools NotebookEdit,NotebookWrite"
 alias cl="claude --disallowedTools NotebookEdit,NotebookWrite"
 
+# codex
+alias cx="codex --yolo -c model_reasoning_summary_format=experimental -c model_reasoning_effort='high'"
+
 alias thunar="thunar 2>/dev/null"
 alias open="xdg-open"
 alias pbcopy="wl-copy"
